@@ -1,0 +1,13 @@
+header{
+display: flex;
+    border: solid blue;
+    padding: 20px;
+   justify-content: space-between;
+}
+.link{
+    font-size: 30px;
+    border: red solid;
+    gap: 2000px;
+}
+.logo{ border: rgb(9, 255, 0) solid;
+}
