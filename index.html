@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>test-git</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="header">
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<style>
+  *{padding: 0;
+  margin:0;
+box-sizing: border-box;
+}
+  .firstcont{
+    background: #1F2937;
+    height: 60vh;
+  }
+  .header{
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
 
-    <div class="main">
-      <div class="center"></div>
-      <div class="splitcenter uno"></div>
-      <div class="splitcenter due"></div>
+
+  }
+ 
+  .header h1{
+    color: #e5e7eb;
+    flex: 1;
+    
+  }
+  .link{
+    
+    border: red solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+  }
+</style>
+<body>
+  <div class="firstcont">
+    <div class="header">
+      <h1>Header Logo</h1>
+      <div class="link">
+
+        <a href="">header link one</a>
+      <a href="">header link two</a>
+      <a href="">header link three</a>
+      </div>
+      
     </div>
-  </body>
+  </div>
+</body>
 </html>
