@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .firstcont {
+      background: #1f2937;
+      height: 60vh;
+    }
+    .header {
+      display: flex;
+      font-size: 24px;
+      justify-content: space-between;
+      padding: 10px 10% 10px 10%;
+    }
+
+    .header h1 {
+      color: #e5e7eb;
+      flex: 1;
+    }
+    .link {
+   
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex: 1;
+    }
+    .link a {
+      text-decoration: none;
+      color: #e5e7eb;
+    }
+
+    .main {
+      display: flex;
+      margin-top: 30px;
+      color: #e5e7eb;
+     
+      height: 73%;
+      justify-content: center;
+      align-items: center;
+      padding: 10%;
+    }
+    .text_main {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      flex: 1;
+    }
+    .text_main h1 {
+      font-size: 48px;
+      font-weight: 800;
+    }
+    .text_main h2 {
+      font-size: 18px;
+      color: #e5e7eb;
+    }
+    .button {
+      display: flex;
+      background: #3b82f6;
+      height: 50px;
+      width: 110px;
+      border-radius: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+    .img {
+      flex: 1;
+      background: #000;
+      height: 300px;
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .second-cont {
+      display: flex;
+      flex-direction: column;
+
+     
+
+      align-items: center;
+      padding-bottom: 10%;
+    }
+    .second-cont h1 {
+      font-size: 36px;
+      font-weight: 900;
+      color: #1f2937;
+      padding-top: 3%;
+    }
+    .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     gap: 10px;
+      width: 210px;
+    }
+    .box p {
+      max-width: 100%;
+     
+      font-size: 22px;
+      text-align: center;
+    }
+    .c-sqaure {
+      display: flex;
+      gap: 60px;
+      margin-top: 5%;
+      flex-wrap: wrap;
+    }
+    .square {
+      height: 210px;
+      width: 210px;
+      border: blue solid 5px;
+      border-radius: 20px;
+    }
+    .three-cont {
+      display: flex;
+      flex-direction: column;
+      height: 60vh;
+     
+      background: #e5e7eb;
+      align-items: center;
+      padding: 10%;
+    }
+    .three-cont p {
+      font-size: 36px;
+    }
+
+    .four-cont{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      height: 40vh;
+    }
+
+    .item{
+      display: flex;
+      height: 200px;
+      background: #3b82f6;
+      width: 70%;
+      color: white;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 10px;
+    
+    }
+    .item .button{
+      border: #e5e7eb solid;
+    }
+    footer{
+      display: flex;
+      background: #1f2937;
+      height: 15vh;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="firstcont">
+      <div class="header">
+        <h1>Header Logo</h1>
+        <div class="link">
+          <a href="">header link one</a>
+          <a href="">header link two</a>
+          <a href="">header link three</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="text_main">
+          <h1>
+            This website is <br />
+            awesome
+          </h1>
+          <h2>
+            This website has some subtext that goes here under the <br />
+            main title. lt's a smaller font and the color is lower <br />
+            contrast
+          </h2>
+          <h2 class="button">registrati</h2>
+        </div>
+        <div class="img"><h1>immagine</h1></div>
+      </div>
+    </div>
+    <div class="second-cont">
+      <h1>Some Random INformation</h1>
+
+      <div class="c-sqaure">
+        <div class="box1 box">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="box1 box">
+          <div class="square"></div>
+          <p>Lthis is some subtext under an illustration or image</p>
+        </div>
+        <div class="box1 box">
+          <div class="square"></div>
+          <p>Lthis is some subtext under an illustration or image</p>
+        </div>
+        <div class="box1 box">
+          <div class="square"></div>
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+      </div>
+    </div>
+    <div class="three-cont">
+      <p>
+        This is an inspiring quote, or a testimonial from a customer. Maybe
+        it'sjust filling up space, or maybe people will actually read it. Who
+        knows? All I know is that it looks nice.
+      </p>
+      <h2>-Thor, God of Thunder</h2>
+    </div>
+    <div class="four-cont">
+      <div class="item">
+        <div class="text-item">
+          <h2>Call to action</h2>
+        <h3>Sing up for our product by cliking that button right over there</h3>
+        </div>
+        <h2 class="button">Sign up</h2>        
+      </div>
+    </div>
+    <footer>
+      <h2>Copyright @ The Odin Project 2021</h2>
+    </footer>
+  </body>
+</html>
